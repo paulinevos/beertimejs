@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Beeralarm">
+    <meta name="author" content="thisistriss">
+    <title>BEERALARM</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body class="default" role="document">
+
+    <div id="beercontainer">
+        <img id="logo" src="images/heineken_logo.png" alt="">
+        <img id="glas" src="images/heineken_glas.png" alt="">
+
+        <video id="biervid">
+            <source src="images/bier.webm" type="video/webm" />
+        </video>
+        <video id="biervidloop" loop>
+            <source src="images/loop.webm" type="video/webm" />
+        </video>
+
+        <audio id="bieraudio">
+            <source src="images/bier.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="alarmaudio">
+            <source src="images/alarm.mp3" type="audio/mpeg">
+        </audio>
+
+
+        <h1>Biertijd!</h1>
+        <div class="pour"></div>
+
+    </div>
+    
+    
+    <script src="js/beeralarm.js"></script>
+
+</body>
+
+</html>
